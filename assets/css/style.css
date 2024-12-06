@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Love+Ya+Like+A+Sister&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Pixelify Sans", serif;
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(144, 205, 255), #fff);
+}
+
+
+
+.main{
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pokedex{
+    background-color: rgb(209, 101, 101);
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 30rem;
+    border-radius: 10px;
+    border: solid 5px black;
+    margin-top: 3rem;
+}
+.visor{
+    width: 80%;
+    margin-top: 1rem;
+    height: 40%;
+    background: linear-gradient(to bottom, rgb(144, 205, 255), #fff);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px black;
+}
+.visor img{
+    width: 50%;
+    height: auto;
+}
+.dados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    flex-direction: column;
+    color: white;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+.pokesearch{
+    width: 100%;
+    padding: 0.3rem 1rem;
+    margin-top: 0.5rem;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+button{
+    padding: 0.5rem;
+    margin-block: 1rem ;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
